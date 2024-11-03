@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)50%, rgba(0,0,0,0.4)50%), url(/images/shop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.logotitle a {
+    text-decoration: none;
+    position: fixed;
+    color:white;
+    top:0;
+    left:44.8%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.logo {
+    position: fixed;
+    top:0;
+    left:40%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #111;
+    border: 2px black;
+    height: 1px;
+    margin-top: 45px;
+}
+.top {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: black;
+    opacity: 0.8;
+    height: 83px;
+}
+
+.list{
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.list li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+#signin {
+    background-color:  #29BEF5;
+    position: fixed;
+    top: 18px;
+    right: 20px;
+    border: #29BEF5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#signin:hover{
+    background-color:  white;
+    border: white;
+    color: #29BEF5;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+
+/*++++++++++++++++++++++_Thanks to 'Alex Coven', he is the writer of what coming next in this stylesheet_+++++++++++++++++++++++*/
+body {
+    width:100%;
+    height:100%;
+    font-family: "Helvetica" sans-serif;
+    font-weight: 300;
+    font-size:20px;
+
+
+  }
+
+#expertise {
+    position: fixed;
+    top: 1%;
+    right: 28%;
+    width:650px;
+    height:650px;
+    display:block;
+    margin:0 auto;
+    padding:25vh 0;
+}
+
+.item {
+    position:relative;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px;
+    width:47%;
+    border: #fff solid 2px;
+    margin-bottom:10px;
+    display:inline-block;
+    * display:inline;
+    margin: 0px 3px 10px 3px;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border-radius:2px;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.5);
+    overflow:hidden;
+}
+
+.item:before {
+    content:'';
+    background-repeat: no-repeat;
+    background-size: 65px;
+    width:65px;
+    height:70px;
+    display:block;
+    margin:0 auto;
+}
+
+.origin.item:before {
+    background-image: url("images/dumbells.png");
+}
+
+.origin.item:hover:before {
+    background-image: url("images/dumbellsafter.png");
+}
+
+.construction.item:before {
+    background-image: url("images/shaker.png");
+}
+
+.construction.item:hover:before {
+    background-image: url("images/shakerafter.png");
+}
+
+.leasing.item:before {
+    background-image: url("images/shoes.png");
+}
+
+.leasing.item:hover:before {
+    background-image: url("images/shoesafter.png");
+}
+
+.financing.item:before {
+    background-image: url("images/whey.png");
+}
+
+.financing.item:hover:before {
+    background-image: url("images/wheyafter.png");
+}
+
+.entitlement.item:before {
+    background-image: url("images/tshirt.png");
+}
+
+.entitlement.item:hover:before {
+    background-image: url("images/tshirtafter.png");
+}
+
+.asset.item:before {
+    background-image: url("images/bag.png");
+}
+
+.asset.item:hover:before {
+    background-image: url("images/bagafter.png");
+}
+
+.item:after {
+    content: "";
+    display:block;
+    border-top: 0 #fff solid;
+    border-bottom: 15px transparent solid;
+    border-left: 15px #fff solid;
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    z-index:-1;
+    overflow:hidden;
+}
+
+.item:hover:after {
+    z-index:-1;
+    border-left: 302px solid #fff;
+    border-bottom:302px solid transparent;
+    overflow:hidden;
+    background-color:#29BEF5;
+}
+
+.item:hover:before {
+    background-image: url("/images/bumbells.png");
+}
+
+.item:hover {
+    color:#007766;
+    overflow:hidden;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+.item:hover, .item:after, .item {
+    -webkit-transition: 0.5s color ease;
+    -moz-transition: 0.5s color ease;
+    -o-transition: 0.5s color ease;
+    transition: 0.5s color ease;
+}
+
+.item:hover, .item:after {
+    -webkit-transition: 0.5s border ease;
+    -moz-transition: 0.5s border ease;
+    -o-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+}
+
+.item:after {
+    overflow:hidden;
+}
+
+.item:before, .item:hover:before, .item:hover:after {
+    -webkit-transition: 0.75s all ease;
+    -moz-transition: 0.75s all ease;
+    -o-transition: 0.75s all ease;
+    transition: 0.75s all ease;
+}
+
+

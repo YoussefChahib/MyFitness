@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    position:fixed;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/homegym.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+#signin {
+    background-color:  #29BEF5;
+    border: #29BEF5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#signin:hover{
+    background-color:  white;
+    border: white;
+    color: #29BEF5;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.nav .menu-img {
+    position: absolute;
+    top:19px;
+    left:14px;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+
+.nav .logo {
+    position: fixed;
+    top:0;
+    left:40%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.nav .logotitle a {
+    text-decoration: none;
+    position: fixed;
+    color:white;
+    top:0;
+    left:45.4%;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+.listmenu{
+    flex: 1;
+    text-align: left;
+    position: absolute;
+    color:white;
+    top:24px;
+    left:10px;
+
+}
+
+.listmenu li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.listmenu a {
+    text-decoration: none;
+    color: white;
+}
+.listmenu a:hover{
+    color: #29BEF5;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.list{
+    flex: 1;
+    text-align: right;
+
+
+}
+
+.list li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: #29BEF5;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.text-container {
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+    margin-bottom:10%;
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px;
+
+
+
+}
+.text-container h1 {
+    font-size: 90px;
+    font-family: Arial;
+    font-weight: 400;
+    font-weight: 500;
+    background-color: white;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.text-container h1 span {
+    font-size: 90px;
+    font-weight: 400;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #29BEF5, 0px 0px 10px #29BEF5, 0px 0px 10px #29BEF5,
+      0px 0px 20px #29BEF5;
+}
+
+.text-container p{
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: 400;
+    font-weight: 500;
+    background-color: white;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #aaa, #fff);
+
+}
+
+
+.text-container a{
+    text-decoration: none;
+    font-family: Arial;
+    background: WHITE;
+    padding: 14px 40px;
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    margin-top: 18px;
+    border-radius: 18px;
+    background-image: linear-gradient(to left, #aaa, #fff);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.text-container a:hover{
+
+    background-color: black;
+    border: black;
+    color: black;
+    transition: background 0.5s, margin-left 0.5s;
+    background-image: linear-gradient(to right, #aaa, #fff);
+}
+.btnn {
+    background: #efefef;
+    position: absolute;
+    top: 85px;
+    left: 300px;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border:  0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+
+.btnn span{
+    display: block;
+    background-color: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.listmenu2{
+    flex: 1;
+    text-align: left;
+    position: absolute;
+    color:white;
+    top:90px;
+    left:150px;
+
+}
+
+.listmenu2 li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.listmenu2 p {
+    text-decoration: none;
+    color: white;
+}
+.listmenu2 p:hover{
+    color: #29BEF5;
+    transition: background 0.5s, margin-left 0.5s;
+}
+.active {
+    background: #29BEF5;
+
+}
+
+.active span {
+    background: #fff;
+    opacity: 100;
+    margin-left: 31px;
+}
+
+.disactive {
+    background: white;
+    color: #fff;
+
+}
+
+.disactive span {
+    background: #fff;
+    opacity: 100;
+    margin-left: 2px;
+}
+
+
+#about {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 25px;
+    margin-bottom: 20px;
+  }
+
+#about strong {
+    font-weight: bold;
+}
+
+#about em {
+    font-style: italic;
+}
+
+#about a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px solid #007bff;
+}
+
+#about a:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
